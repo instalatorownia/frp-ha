@@ -1,0 +1,13 @@
+configuration:
+  server:
+    name: Serwer
+    description: Adres serwera FRP
+  token:
+    name: Token
+    description: Token autoryzujący klienta
+  subdomain:
+    name: Subdomena (16 losowych znaków alfanumerycznych)
+    description: Subdomena, pod którą dostępny będzie Home Assistant
+  proxy_name:
+    name: Adres zamieszkania
+    description: Ulica 12, Miasto 12-345

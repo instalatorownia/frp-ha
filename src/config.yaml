@@ -1,0 +1,25 @@
+name: "FRP Instalatorownia"
+description: "Klient FRP dla klientów instalatorownia.pl"
+version: "1.0.4"
+slug: "frp_instalatorownia"
+host_network: true
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: application
+boot: "auto"
+map:
+  - "share:rw"
+privileged:
+  - NET_ADMIN
+devices:
+  - /dev/net/tun
+schema:
+  server: str
+  token: str
+  subdomain: str
+  proxy_name: str
