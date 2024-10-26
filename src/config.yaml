@@ -1,6 +1,6 @@
 name: "FRP Instalatorownia"
 description: "Klient FRP dla klientów instalatorownia.pl"
-version: "1.0.4"
+version: "2.0.4"
 slug: "frp_instalatorownia"
 host_network: true
 init: false
