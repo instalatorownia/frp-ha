@@ -6,9 +6,9 @@ auth.token = "__arg_auth_token__"
 
 [[proxies]]
 name = "__arg_proxy_name__"
-type = "https"
+type = "http"
 localIP = "127.0.0.1"
 localPort = 8123
 subdomain = "__arg_subdomain__"
-transport.useEncryption = true
-transport.useCompression = true
+transport.useEncryption = false
+transport.useCompression = false
